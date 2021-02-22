@@ -9,15 +9,15 @@ body {
 }
 
 .app {
-  background-image: url(./assests/cold-bg.jpg);
+  background-image: url(./assests/cold.jpg);
   background-size: cover;
   background-position: bottom;
-  transition: 0.4 ease-out;
+  transition: 0.4 ease-in;
 }
 
 .app.warm {
-  background-image: url(./assests/warm-bg.jpg);
-  transition: 0.4 ease-out;
+  background-image: url(./assests/sunny.jfif);
+  transition: 0.4 ease-in;
 }
 
 main {
@@ -93,3 +93,10 @@ main {
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
 
+@media only screen and (min-width:860px) {
+  .search-box {
+    max-width: 40%;
+    margin: 0 auto 75px ;
+  }
+}
+ 
