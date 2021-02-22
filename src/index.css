@@ -101,7 +101,7 @@ main {
 
 @media only screen and (min-width:860px) {
   .search-box {
-    max-width: 40%;
+    max-width: 50%;
     margin: 0 auto 75px;
   }
 }
