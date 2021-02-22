@@ -12,12 +12,12 @@ body {
   background-image: url(./assests/cold.jpg);
   background-size: cover;
   background-position: bottom;
-  transition: 0.4 ease-in;
+  transition: 0.4s ease-in;
 }
 
 .app.warm {
   background-image: url(./assests/sunny.jfif);
-  transition: 0.4 ease-in;
+  transition: 0.4s ease-in;
 }
 
 main {
@@ -86,6 +86,12 @@ main {
   box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
 }
 
+.weather-box .temp:hover{
+  transform: scale(1.1);
+  transition: 0.4s ease-in;
+  cursor: pointer;
+}
+
 .weather-box .weather {
   color:  #fff;
   font-size: 48px;
@@ -96,7 +102,7 @@ main {
 @media only screen and (min-width:860px) {
   .search-box {
     max-width: 40%;
-    margin: 0 auto 75px ;
+    margin: 0 auto 75px;
   }
 }
  
